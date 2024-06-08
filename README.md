@@ -102,3 +102,17 @@ cd CVClassifier
 conda activate pisa
 python main.py
 ```
+
+## Demo
+
+For the demo, we developed a web page using Streamlit to provide better insights into why our model classifies certain responses the way it does. In this demo, you can upload a resume and see each sentence highlighted in a different color. Each color represents a different cluster, allowing us to observe that resumes for managerial positions contain many clusters related to management and leadership. For more details on how this demo and the entire model function, please refer to the "Analysis" folder for the pipeline and the "demo_website" folder for the website.
+
+![Alt text](images/Demo.png)
+
+## Authors of the project
+
+This project was made by: [ernestogm812](https://github.com/ernestogm812), [A-Hermosillo](https://github.com/A-Hermosillo), [arctom](https://github.com/arctom) and [Mau124](https://github.com/Mau124)
+
+#### Disclaimer
+
+This project was developed as a school assignment and completed within a set timeframe. It is no longer maintained by the authors, and some sections of the code lack thorough documentation due to tight deadlines. There is significant potential for improvements and refactoring in both the Analysis and demo codebases.
